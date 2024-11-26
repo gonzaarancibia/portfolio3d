@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
+  // @ts-expect-error: library without types
 } from 'react-vertical-timeline-component';
 
 import 'react-vertical-timeline-component/style.min.css';
@@ -74,7 +75,7 @@ const Experience: React.FC = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(0.1)}>
         <p className={styles.sectionSubText}>
           {t('work.workExperience.headline')}
         </p>

@@ -83,7 +83,7 @@ const Works: React.FC = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(0.1)}>
         <p className={`${styles.sectionSubText}`}>
           {t('work.projects.headline')}
         </p>
@@ -94,7 +94,7 @@ const Works: React.FC = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
+          variants={fadeIn(undefined, undefined, 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
           {t('work.projects.description')}
         </motion.p>

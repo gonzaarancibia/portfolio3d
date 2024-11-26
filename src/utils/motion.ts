@@ -100,7 +100,7 @@ export const slideIn = (
 };
 
 export const staggerContainer = (
-  staggerChildren: boolean = true, // Default staggerChildren to true
+  staggerChildren: number = 0.1, // Default staggerChildren to true
   delayChildren: number = 0, // Default delayChildren to 0
 ) => ({
   hidden: {},

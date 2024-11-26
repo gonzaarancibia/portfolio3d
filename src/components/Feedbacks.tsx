@@ -32,7 +32,7 @@ const FeedbackCard: React.FC<FeedbackCardProps> = ({
   image,
 }) => (
   <motion.div
-    variants={fadeIn('', 'spring', index * 0.5, 0.75)}
+    variants={fadeIn(undefined, 'spring', index * 0.5, 0.75)}
     className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full">
     <p className="text-white font-black text-[48px]">"</p>
 
@@ -68,7 +68,7 @@ const Feedbacks: React.FC = () => {
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
-        <motion.div variants={textVariant()}>
+        <motion.div variants={textVariant(0.1)}>
           <p className={styles.sectionSubText}>
             {t('work.testimonials.headline')}
           </p>
