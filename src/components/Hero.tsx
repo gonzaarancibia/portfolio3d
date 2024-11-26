@@ -2,9 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
-import { Trans } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
 const Hero: React.FC = () => {
+  // @ts-expect-error: We ensure that the component automatically re-renders when i18n.language changes
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { i18n } = useTranslation();
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
