@@ -14,7 +14,7 @@ i18n
     },
     backend: {
       // Here is where i18n will get all translations
-      loadPath: '/src/config/translations/{{lng}}/translation.json',
+      loadPath: '/locales/{{lng}}/translation.json', // Load translations from public/locales
     },
   });
 
