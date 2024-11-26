@@ -1,4 +1,5 @@
 import logo from './yo-con-gafas.png';
+import logocarton from './gonza-caricatura.png';
 import backend from './backend.png';
 import creator from './creator.png';
 import mobile from './mobile.png';
@@ -63,4 +64,5 @@ export {
   postgresql,
   jest,
   reactnative,
+  logocarton,
 };

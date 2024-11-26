@@ -3,6 +3,9 @@ import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
+  // server: {
+  //    host: '0.0.0.0', // Allow to run in local
+  // },
   plugins: [react()],
-  assetsInclude: ['**/*.json'], // Incluye archivos JSON en el build esto es para agregar las translations de I18n
+  assetsInclude: ['**/*.json'], // Include JSON files in the build this is to add the I18n translations
 });

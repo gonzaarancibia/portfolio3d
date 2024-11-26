@@ -1,13 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+import { styles } from '../../styles';
+import { ComputersCanvas } from '../canvas';
 import { Trans, useTranslation } from 'react-i18next';
+import CartonProfilePicture from '../CartonProfilePicture';
+import useGetDeviceType from '../Hero/hooks/useGetDeviceType';
 
 const Hero: React.FC = () => {
   // @ts-expect-error: We ensure that the component automatically re-renders when i18n.language changes
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { i18n } = useTranslation();
+  const deviceType = useGetDeviceType();
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -35,8 +38,11 @@ const Hero: React.FC = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
+      {deviceType === 'android' ? (
+        <CartonProfilePicture />
+      ) : (
+        <ComputersCanvas />
+      )}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
