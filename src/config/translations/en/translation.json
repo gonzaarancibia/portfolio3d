@@ -1,0 +1,130 @@
+{
+  "navBar": {
+    "about": "About",
+    "work": "Work",
+    "contact": "Contact"
+  },
+  "about": {
+    "introduction": "Introduction",
+    "overview": "Overview.",
+    "description": "I am a software engineer and an innate entrepreneur with 4 years of experience, mainly specialized in Front-End development using technologies such as TypeScript, JavaScript, React, Node.js, and PostgreSQL, among others. I am passionate about creating, innovating in technology and projects, learning every day, teaching, and challenging myself. I work exclusively on projects that create a positive impact on the world, tirelessly committed to making things happen. My habits, continuous learning, and unwavering discipline make me a high-value professional.",
+    "services": {
+      "coach": "Coach"
+    }
+  },
+  "hero": {
+    "title": "Hi, I'm <strong>{{name}}</strong>",
+    "description": "I develop nice things on the web, <lineBreak /> projects and impossible things."
+  },
+  "work": {
+    "workExperience": {
+      "title": "Work Experience",
+      "headline": "What I have done so far",
+      "coach": {
+        "title": "Programming Mentor",
+        "company": "Personal Brand",
+        "date": "Sep 2024 - Present",
+        "point1": "Founder and leader of my programming and personal development coaching school.",
+        "point2": "Mentor for developers in training and beginners.",
+        "point3": "Holistic approach: technical and soft skills.",
+        "point4": "Promoting best practices in software development.",
+        "point5": "Experience in breaking down complex concepts to ease learning.",
+        "point6": "Strengthening leadership and effective communication skills."
+      },
+      "growthPartner": {
+        "title": "Founder - CEO",
+        "company": "GAB Ventures Growth (Agency)",
+        "date": "Mar 2024 - Sep 2024",
+        "point1": "Founder of a marketing and software development agency specialized in e-commerce and info-product creators.",
+        "point2": "Experience working with 2 Spanish brands and 1 Mexican brand.",
+        "point3": "Leadership of teams: Sales and prospecting (4 people); Content creation and service delivery (3 people).",
+        "point4": "Business strategist with experience in breaking down complex concepts, leading operational areas of the agency, and managing commercial strategy, including calls with Founders and CEOs."
+      },
+      "devBluemedlar": {
+        "title": "Full Stack Developer",
+        "company": "Bluemedlar (Spain)",
+        "date": "Oct 2023 - Aug 2024",
+        "point1": "Lead developer for Nichefire, a US client, involved in the full development of the application, from back-end to front-end, including UX/UI design.",
+        "point2": "Communication with stakeholders in English through weekly meetings and Slack messages.",
+        "point3": "Developed an App/SaaS for processing large volumes of data and integrating AI to identify global trends and benefit other businesses with the collected data.",
+        "point4": "Tech Stack: Node.js · React.js · TypeScript · Material-UI · PostgresSQL · Auth0 · Redux · React Query · Axios · Express.js · UX/UI "
+      },
+      "devMeli": {
+        "title": "Software Developer (Front-End)",
+        "company": "Mercado Libre",
+        "date": "Dec 2021 - Sep 2023",
+        "point1": "Owner and Developer of the fraud prevention area, specializing in chargebacks, leading initiatives from start to implementation ensuring proper execution and follow-up of each project.",
+        "point2": "Developed the Consumption Identification Portal (PIC), a query tool for credit card charges, which reached 20,000 users in its first month and prevented chargebacks totaling $301,701.16 USD.",
+        "point3": "Implementation of modern technologies like React.js, Node.js, Sass, along with tracking tools (Google Analytics) and monitoring tools (New Relic, Kibana) to ensure platform performance and stability.",
+        "point4": "Focus on Testing, CI/CD, authentication, and adherence to best practices (clean code, code quality) to ensure platform performance, stability, and scalability.",
+        "point5": "Active participation in the fraud prevention team, collaborating with back-end, cross-team, UX, product, and security teams.",
+        "point6": "Responsible for weekly on-call/support/monitoring shifts for all fraud prevention applications, ensuring proper functioning and error prevention. Led migrations of legacy applications to improve performance and stability."
+      },
+      "devRevai": {
+        "title": "Full Stack Developer",
+        "company": "Revai",
+        "date": "Sep 2021 - Dec 2021",
+        "point1": "Worked as a Full Stack Developer in cross-functional teams focused on solving critical problems and developing new features.",
+        "point2": "Tech Stack: Node.js, HTML, JavaScript, React.js, CSS, MongoDB, PostgreSQL, Express.js, Redux.js, TypeScript, Material-UI, REST APIs to optimize user experience and contribute to project creation from the initial phase to deployment.",
+        "point3": "Collaborated closely with the QA team to identify and fix bugs in the application.",
+        "point4": "This experience allowed me to acquire valuable skills in a startup environment, working both on the front-end and back-end."
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "headline": "My Work",
+      "description": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
+    },
+    "testimonials": {
+      "title": "Testimonials.",
+      "headline": "What others say",
+      "rafael": {
+        "testimonial": "Gonzalo is an exceptional leader and negotiator, with great skill in reaching agreements with both clients and suppliers. I had the opportunity to work with him on lead generation for GAB Ventures Growth, an agency he founded from scratch thanks to his know-how in digital marketing and sales. In addition to his entrepreneurial profile, Gonzalo excels in key areas such as automation, integrations, and systems, which were crucial to the success of his agency. I would recommend collaborating with him to any client, supplier, or stakeholder, as he is a professional who not only plans but executes effectively and consistently, ensuring that things get done.",
+        "name": "Rafael Martínez",
+        "designation": "Data Scientist | Growth Lead Generation",
+        "company": "GAB Ventures Growth"
+      },
+      "jordi": {
+        "testimonial": "Gonzalo was an excellent teammate. Together, we developed a Mercado Pago application that allows users to identify a charge through this portal, which reduced the number of chargebacks and minimized customer support inquiries. During development, we divided and coordinated tasks, achieving a high-quality final product. In the production week, we detected very few bugs, none of which were functional or prevented the use of the application. I can highlight his strong commitment to the team, his willingness to help, and his great human qualities.",
+        "name": "Jordi Belmonte",
+        "designation": "Front-End Engineer",
+        "company": "Mercado Libre"
+      },
+      "matias": {
+        "testimonial": "Gonzalo is a great professional. He was my first colleague in the IT world, and I have an excellent impression of him. Always willing to help and share his knowledge with the team. He is a teammate I would choose to work side by side with again, without a doubt! 🙌",
+        "name": "Matias Ruiz",
+        "designation": "Full Stack Developer",
+        "company": "INNEVO CHILE"
+      },
+      "alejandro": {
+        "testimonial": "We were group mates and part of the stand-up process during our learning journey at Henry Bootcamp. He is someone who is very helpful and highly predisposed to collaborate on new topics, ideas, and with teammates. Always eager to learn and teach, with excellent communication within our work groups!",
+        "name": "Alejandro Oliva",
+        "designation": "Mid-Level Developer",
+        "company": "Banco Galicia"
+      },
+      "martin": {
+        "testimonial": "We were group mates and part of the stand-up process during our learning journey at Henry Bootcamp. He is someone who is very helpful and highly predisposed to collaborate on new topics, ideas, and with teammates. Always eager to learn and teach, with excellent communication within our work groups!",
+        "name": "Martin Llobell",
+        "designation": "Full Stack Dev",
+        "company": "Wind River"
+      }
+    }
+  },
+  "contact": {
+    "headline": "Get in touch",
+    "title": "Contact.",
+    "form": {
+      "yourName": "Your Name",
+      "yourEmail": "Your Email",
+      "what'sYourGoodName": "what's your good name?",
+      "what'sYourWebAddress": "what's your web address?",
+      "yourMessage": "Your Message",
+      "whatYouWantToSay": "what you want to say?",
+      "send": "Send",
+      "sending": "Sending...",
+      "validationError": "Please fill out all fields.",
+      "successMessage": "Thank you! I will get back to you soon.",
+      "errorMessage": "Something went wrong. Please try again."
+    }
+  }
+}

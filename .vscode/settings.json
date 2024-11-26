@@ -1,0 +1,16 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.fixAll": "explicit"
+  },
+  "eslint.enable": true, // Enables ESLint
+  "eslint.run": "onSave", // Ensures ESLint runs only on file save
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ], // The file types ESLint applies to
+  "editor.formatOnSave": true, // Enables formatting on save with Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode" // Ensures Prettier is the default formatter
+}
