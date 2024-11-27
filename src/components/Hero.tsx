@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { styles } from '../../styles';
-import { ComputersCanvas } from '../canvas';
+import { styles } from '../styles';
+import { ComputersCanvas } from './canvas';
 import { Trans, useTranslation } from 'react-i18next';
-import CartonProfilePicture from '../CartonProfilePicture';
-import useGetDeviceType from '../Hero/hooks/useGetDeviceType';
+import CartonProfilePicture from './CartonProfilePicture';
+import useGetDeviceType from './hooks/useGetDeviceType';
 
 const Hero: React.FC = () => {
   // @ts-expect-error: We ensure that the component automatically re-renders when i18n.language changes
