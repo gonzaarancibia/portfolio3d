@@ -73,7 +73,15 @@
     "projects": {
       "title": "Projects",
       "headline": "My Work",
-      "description": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
+      "description": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+      "yc-directory": {
+        "title": "YC Directory",
+        "description": "A Next.js 15 platform where entrepreneurs can submit their startup ideas for virtual pitch competitions, browse other pitches, and gain exposure through a clean minimalistic design for a smooth user experience."
+      },
+      "3d-portfolio": {
+        "title": "3D Portfolio",
+        "description": "A modern 3D portfolio website with interactive 3D models, creating an immersive user experience. Designed a fully responsive, accessible UI with modular, reusable components for scalability. Optimized asset loading for smooth performance, even with high-resolution 3D elements. This project highlights my ability to combine cutting-edge technologies and deliver visually stunning, high-performance web applications tailored to user needs."
+      }
     },
     "testimonials": {
       "title": "Testimonials.",

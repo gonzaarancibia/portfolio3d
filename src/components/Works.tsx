@@ -31,6 +31,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   image,
   source_code_link,
 }) => {
+  const { t } = useTranslation();
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
@@ -60,8 +61,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <h3 className="text-white font-bold text-[24px]">{t(name)}</h3>
+          <p className="mt-2 text-secondary text-[14px]">{t(description)}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
