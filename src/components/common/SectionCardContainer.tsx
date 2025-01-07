@@ -17,7 +17,7 @@ const SectionCardContainer: React.FC<SectionCardContainerProps> = ({
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
+        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px] max-sm:min-h-[250px]`}>
         <motion.div variants={textVariant(0.1)}>
           <p className={styles.sectionSubText}>{headlineKey}</p>
           <h2 className={styles.sectionHeadText}>{titleKey}</h2>
