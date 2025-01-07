@@ -117,6 +117,48 @@
         "designation": "Full Stack Dev",
         "company": "Wind River"
       }
+    },
+    "certifications": {
+      "title": "Certificaciones.",
+      "headline": "Mi conocimiento",
+      "items": {
+        "ts-workshop": {
+          "title": "React con Typescript Workshop",
+          "description": ""
+        },
+        "github-actions": {
+          "title": "Curso Github Actions",
+          "description": "GitHub Actions, la plataforma de integración y despliegue continuo (CI/CD) que te permite automatizar procesos de compilación, pruebas y despliegue para que puedas enfocarte en desarrollar código."
+        },
+        "accesibility-web": {
+          "title": "Diploma del Curso de Accesibilidad Web",
+          "description": "La accesibilidad web garantiza que las personas con discapacidad puedan interactuar con las páginas y aplicaciones. En este curso aprendí cuáles son los principios de la accesibilidad y cómo mejorar los proyectos. Conocí los lineamientos fundamentales para crear proyectos inclusivos y universales con las mejores practicas de estándares de Accesibilidad como WCAG, ARIA, WAI, HTML semántico, etc."
+        },
+        "css-architecture": {
+          "title": "Curso Arquitectura CSS",
+          "description": "¿Qué es arquitectura en CSS? ¿Cuándo conviene usar BEM, OOCSS o Atomic Design? Estos temas abordé en el curso, ademas de convenciones, buenas prácticas y errores comunes para escribir código CSS de calidad junto a la profesora Estefany Aguilar."
+        },
+        "algorithmic-complexity-js": {
+          "title": "Complejidad algorítmica con JavaScript",
+          "description": "Optimización de algoritmos y la evaluación de su complejidad computacional utilizando JavaScript. El curso cubrió conceptos fundamentales de análisis de algoritmos, incluidos los distintos tipos de complejidad, como O(1), O(n), O(log n), O(n^2), entre otros, y su impacto en el rendimiento de las aplicaciones. A lo largo del curso, se profundizó en técnicas avanzadas de programación y optimización, aprendiendo a escribir código más eficiente mediante la correcta selección de estructuras de datos y algoritmos. Los participantes también adquirieron habilidades para comparar diferentes soluciones a problemas específicos y seleccionar la mejor opción dependiendo de las restricciones de tiempo y espacio."
+        },
+        "js-fundamentals": {
+          "title": "Fundamentos de Javascript",
+          "description": ""
+        },
+        "software-design-patterns": {
+          "title": "Introducción a los Patrones de Diseño de Software",
+          "description": "-Identificar los patrones de diseño de acuerdo a su aplicación. -Entender los conceptos de reusabilidad y extensibilidad. -Reconocer la importancia del diseño de software."
+        },
+        "js-engine-v8": {
+          "title": "Javascript Engine (V8) & Navegador",
+          "description": "Descubrí cómo funciona el motor de JavaScript V8 y su interacción con el navegador. Pude evitar errores como Hoisting y corregir el código. Aprendí cómo funciona el JIT Compiler, Memory heap, Call stack y JavaScript Runtime"
+        },
+        "advanced-react": {
+          "title": "Advanced React",
+          "description": "Aprendí a implementar técnicas avanzadas en Render Props, Higher-Order Components (HOCs) y Custom Hooks. Mejorar la gestión del estado de aplicaciones utilizando State Machines y Zustand. Además, optimizar el rendimiento de sitios web con Server-Side Rendering (SSR), Lazy Loading y otras estrategias avanzadas."
+        }
+      }
     }
   },
   "contact": {

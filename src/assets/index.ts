@@ -5,6 +5,7 @@ import creator from './creator.png';
 import mobile from './mobile.png';
 import web from './web.png';
 import github from './github.png';
+import link from './link.png';
 import menu from './menu.svg';
 import close from './close.svg';
 
@@ -17,6 +18,9 @@ import javascript from './tech/javascript.png';
 import mongodb from './tech/mongodb.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
+import nextjs from './tech/next.js.png';
+import graphql from './tech/graphql.png';
+import chatgpt from './tech/chatGPT.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
@@ -32,6 +36,17 @@ import tesla from './company/tesla.png';
 import ycapp from './home.png';
 import portfolio from './portfolio3d.png';
 
+// Certifications
+import certTypescript from './certifications/typescript-workshop.png';
+import certAccesibilityWeb from './certifications/diploma-accesibilidad-web_page.jpg';
+import certCSSArquitecture from './certifications/diploma-arquitecturas-css_page-0001.jpg';
+import certJSComplexity from './certifications/diploma-complejidad-js_page-0001.jpg';
+import certGithubActions from './certifications/diploma-github-actions_page-0001.jpg';
+import certJSFundation from './certifications/diploma-javascript_page-0001.jpg';
+import introductionDesignPattern from './certifications/introduccion-patrones-diseno.png';
+import jsEngineV8 from './certifications/js-engine-v8.png';
+import advancedReact from './certifications/react-avanzado.png';
+
 export {
   logo,
   backend,
@@ -39,6 +54,7 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   css,
@@ -50,6 +66,9 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
+  graphql,
+  chatgpt,
   redux,
   tailwind,
   typescript,
@@ -63,4 +82,14 @@ export {
   jest,
   reactnative,
   logocarton,
+  // Certifications
+  certTypescript,
+  certAccesibilityWeb,
+  certCSSArquitecture,
+  certJSComplexity,
+  certGithubActions,
+  certJSFundation,
+  introductionDesignPattern,
+  jsEngineV8,
+  advancedReact,
 };

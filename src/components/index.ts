@@ -13,6 +13,7 @@ import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
+import Certifications from './Certifications';
 import Contact from './Contact';
 
 // // Typing for the exported modules to ensure consistency
@@ -23,6 +24,7 @@ export {
   Navbar,
   About,
   Tech,
+  Certifications,
   Experience,
   Works,
   Feedbacks,

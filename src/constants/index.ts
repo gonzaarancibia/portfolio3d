@@ -8,6 +8,10 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
+  graphql,
+  docker,
+  chatgpt,
   redux,
   tailwind,
   nodejs,
@@ -19,6 +23,16 @@ import {
   postgresql,
   jest,
   reactnative,
+  // Certifications
+  certTypescript,
+  certAccesibilityWeb,
+  certCSSArquitecture,
+  certJSComplexity,
+  certGithubActions,
+  certJSFundation,
+  introductionDesignPattern,
+  jsEngineV8,
+  advancedReact,
 } from '../assets';
 import rafaIcon from '../assets/rafa-icon-image.jpg';
 import jordi from '../assets/jordi.jpeg';
@@ -102,6 +116,10 @@ const technologies: Technology[] = [
     icon: reactjs,
   },
   {
+    name: 'Next JS',
+    icon: nextjs,
+  },
+  {
     name: 'Redux Toolkit',
     icon: redux,
   },
@@ -114,28 +132,40 @@ const technologies: Technology[] = [
     icon: nodejs,
   },
   {
+    name: 'Graphql',
+    icon: graphql,
+  },
+  {
     name: 'MongoDB',
     icon: mongodb,
+  },
+  {
+    name: 'Docker',
+    icon: docker,
   },
   {
     name: 'Postgresql',
     icon: postgresql,
   },
   {
-    name: 'git',
+    name: 'Git',
     icon: git,
   },
   {
-    name: 'jest',
+    name: 'Jest',
     icon: jest,
   },
   {
-    name: 'reactnative',
+    name: 'React native',
     icon: reactnative,
   },
   {
-    name: 'figma',
+    name: 'Figma',
     icon: figma,
+  },
+  {
+    name: 'ChatGPT',
+    icon: chatgpt,
   },
 ];
 
@@ -325,4 +355,172 @@ const projects: Project[] = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+type Certification = {
+  name: string;
+  description: string;
+  tags: { name: string; color: string }[];
+  image: string;
+  source_code_link: string;
+};
+
+const certifications: Certification[] = [
+  {
+    name: 'work.certifications.items.ts-workshop.title',
+    description: 'work.certifications.items.ts-workshop.description',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: certTypescript,
+    source_code_link: '',
+  },
+  {
+    name: 'work.certifications.items.accesibility-web.title',
+    description: 'work.certifications.items.accesibility-web.description',
+    tags: [
+      {
+        name: 'WCAG',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'HTML semántico',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'ARIA',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: certAccesibilityWeb,
+    source_code_link:
+      'https://platzi.com/p/Bochamen/curso/1802-course/diploma/detalle/',
+  },
+  {
+    name: 'work.certifications.items.css-architecture.title',
+    description: 'work.certifications.items.css-architecture.description',
+    tags: [
+      {
+        name: 'BEM',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'OOCSS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Atomic Design',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: certCSSArquitecture,
+    source_code_link:
+      'https://platzi.com/p/Bochamen/curso/7991-course/diploma/detalle/',
+  },
+  {
+    name: 'work.certifications.items.algorithmic-complexity-js.title',
+    description:
+      'work.certifications.items.algorithmic-complexity-js.description',
+    tags: [
+      {
+        name: 'BigO',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Algorithms',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Algorithmic Complexity',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: certJSComplexity,
+    source_code_link:
+      'https://platzi.com/p/Bochamen/curso/2517-course/diploma/detalle/',
+  },
+  {
+    name: 'work.certifications.items.github-actions.title',
+    description: 'work.certifications.items.github-actions.description',
+    tags: [
+      {
+        name: 'CICD',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Automation',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'pipelines',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: certGithubActions,
+    source_code_link: 'https://platzi.com/cursos/github-actions/',
+  },
+  {
+    name: 'work.certifications.items.js-fundamentals.title',
+    description: 'work.certifications.items.js-fundamentals.description',
+    tags: [],
+    image: certJSFundation,
+    source_code_link:
+      'https://platzi.com/p/Bochamen/curso/10266-course/diploma/detalle/',
+  },
+  {
+    name: 'work.certifications.items.software-design-patterns.title',
+    description:
+      'work.certifications.items.software-design-patterns.description',
+    tags: [],
+    image: introductionDesignPattern,
+    source_code_link:
+      'https://platzi.com/p/Bochamen/curso/6735-course/diploma/detalle/',
+  },
+  {
+    name: 'work.certifications.items.js-engine-v8.title',
+    description: 'work.certifications.items.js-engine-v8.description',
+    tags: [],
+    image: jsEngineV8,
+    source_code_link:
+      'https://platzi.com/p/Bochamen/curso/1798-course/diploma/detalle/',
+  },
+  {
+    name: 'work.certifications.items.advanced-react.title',
+    description: 'work.certifications.items.advanced-react.description',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'clean code',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'performance',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: advancedReact,
+    source_code_link:
+      'https://platzi.com/p/Bochamen/curso/11223-course/diploma/detalle/',
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  certifications,
+  projects,
+};

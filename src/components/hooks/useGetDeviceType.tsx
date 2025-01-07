@@ -14,11 +14,20 @@ const getDeviceType = (): 'android' | 'iphone' | 'other' => {
     return 'iphone';
   }
 
+  // Detect if the device is a desktop
+  if (!/android|iPhone|iPad|iPod|Mobile|Tablet/i.test(userAgent)) {
+    return 'desktop';
+  }
+
   // If not Android or iPhone, return 'other'
   return 'other';
 };
 
-export default function useGetDeviceType(): 'android' | 'iphone' | 'other' {
+export default function useGetDeviceType():
+  | 'android'
+  | 'iphone'
+  | 'desktop'
+  | 'other' {
   const [deviceType, setDeviceType] = useState<'android' | 'iphone' | 'other'>(
     'other',
   );

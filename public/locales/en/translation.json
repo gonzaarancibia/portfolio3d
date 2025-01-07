@@ -116,6 +116,48 @@
         "designation": "Full Stack Dev",
         "company": "Wind River"
       }
+    },
+    "certifications": {
+      "title": "Certifications.",
+      "headline": "My knowledge",
+      "items": {
+        "ts-workshop": {
+          "title": "React con Typescript Workshop",
+          "description": ""
+        },
+        "github-actions": {
+          "title": "Github Actions Course",
+          "description": "GitHub Actions, the continuous integration and continuous deployment (CI/CD) platform that lets you automate build, test, and deploy processes so you can focus on developing code."
+        },
+        "accesibility-web": {
+          "title": "Web Accessibility Course",
+          "description": "Web accessibility ensures that people with disabilities can interact with websites and applications. In this course I learned the principles of accessibility and how to improve projects. I learned the fundamental guidelines for creating inclusive and universal projects with the best practices of accessibility standards such as WCAG, ARIA, WAI, semantic HTML, etc."
+        },
+        "css-architecture": {
+          "title": "CSS Architecture Course",
+          "description": "What is CSS architecture? When is it better to use BEM, OOCSS or Atomic Design? I covered these topics in the course, as well as conventions, best practices and common mistakes for writing quality CSS code with Professor Estefany Aguilar."
+        },
+        "algorithmic-complexity-js": {
+          "title": "Algorithmic Complexity with JavaScript",
+          "description": "Algorithm optimization and evaluation of their computational complexity using JavaScript. The course covered fundamental concepts of algorithm analysis, including the different types of complexity, such as O(1), O(n), O(log n), O(n^2), among others, and their impact on application performance. Throughout the course, participants delved into advanced programming and optimization techniques, learning how to write more efficient code through the correct selection of data structures and algorithms. Participants also acquired skills to compare different solutions to specific problems and select the best option depending on time and space constraints."
+        },
+        "js-fundamentals": {
+          "title": "Javascript Fundamentals",
+          "description": ""
+        },
+        "software-design-patterns": {
+          "title": "Software Design Patterns",
+          "description": "-Identify design patterns according to their application. -Understand the concepts of reusability and extensibility. -Recognize the importance of software design."
+        },
+        "js-engine-v8": {
+          "title": "Javascript Engine (V8) & Browser",
+          "description": "I discovered how the JavaScript engine V8 works and its interaction with the browser. I was able to avoid errors such as Hoisting and fix the code. I learned how the JIT Compiler, Memory heap, Call stack and JavaScript Runtime work."
+        },
+        "advanced-react": {
+          "title": "Advanced React",
+          "description": "I learned how to implement advanced techniques in Render Props, Higher-Order Components (HOCs) and Custom Hooks. Improve application state management using State Machines and Zustand. Also, optimize website performance with Server-Side Rendering (SSR), Lazy Loading and other advanced strategies."
+        }
+      }
     }
   },
   "contact": {
