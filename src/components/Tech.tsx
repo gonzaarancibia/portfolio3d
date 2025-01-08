@@ -2,12 +2,9 @@ import { technologies } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import 'swiper/swiper-bundle.css';
 import '../styles.css';
 import useGetDeviceType from './hooks/useGetDeviceType';
-import { BallCanvas } from './canvas';
 
 interface Technology {
   name: string;

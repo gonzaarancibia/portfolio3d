@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const getDeviceType = (): 'android' | 'iphone' | 'other' => {
+const getDeviceType = (): 'android' | 'iphone' | 'desktop' | 'other' => {
   const userAgent =
     navigator.userAgent || navigator.vendor || (window as any).opera;
 
@@ -28,9 +28,9 @@ export default function useGetDeviceType():
   | 'iphone'
   | 'desktop'
   | 'other' {
-  const [deviceType, setDeviceType] = useState<'android' | 'iphone' | 'other'>(
-    'other',
-  );
+  const [deviceType, setDeviceType] = useState<
+    'android' | 'iphone' | 'desktop' | 'other'
+  >('other');
 
   useEffect(() => {
     const type = getDeviceType();
