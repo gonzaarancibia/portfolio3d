@@ -37,7 +37,7 @@ jobs:
 
       - name: Deploy to Hostinger
         run: |
-          ssh u721347925@154.49.245.93 << 'EOF'
+          ssh -p 65002 -T u721347925@154.49.245.93 << 'EOF'
             docker pull gonzaarancibia/my-3d-portfolio-app:latest
             docker stop portfolio-container || true
             docker rm portfolio-container || true
